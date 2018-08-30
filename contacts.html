@@ -15,6 +15,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home<span class="sr-only"></span></a></li>
         <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
         <li><a href="contacts.html">Contacts</a></li>
         <!--ask sir how to change the color of the font of the submenu's into #ff93e6-->
       </ul>
@@ -28,6 +29,30 @@
     <p>Sliema, Malta</p>
     <p>(+356)2700 2700  |  (+356)9900 9900</p>
   </div>
+
+  <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 
   <div id=footer>
